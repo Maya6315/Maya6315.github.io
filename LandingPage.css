@@ -4,15 +4,47 @@
 font-family:'Alef Hebrew',Arial, verdana, 'sans serif';
 text-decoration-line: none;
 }
-
-header img{
-    width: 300px;
-    height: 300px;
-    box-shadow: 5px 5px 5px; 
+#topbar{
+    box-shadow: 2px 2px 15px black;
+    background: url(../imgs/landingPage/bubbleBackground.jpg) no-repeat center center scroll;
+    padding-left: 50px;
+}
+#topbar span{
+    padding-left: 10px;
+    font-size: 20px;
+    color:#1c4f86;
+}
+#topbar span:hover{
+    color: black;
+    text-decoration: bold;
+}
+#topbar img{
+    width: 80px;
+}
+header div img{
+    padding-top: 60px;
+    width: 150px;
+    box-shadow: none;
+}
+header div h1{
+    margin-top: -10px;
+    font-size: 80px;
+    color: white;
+    text-shadow:4px 4px 5px #1c4f86;
+}
+header{
+    margin-top: 25px;
 }
 img{
     text-align: center;
     margin: auto;
+}
+header p{
+    font-size: 18px;
+    padding: 0px 40px;
+    color: white;
+    text-decoration: bold;
+    text-shadow:2px 2px 2px #1c4f86;
 }
 #bubbles img{
     width: 165px;
@@ -56,14 +88,10 @@ font-size: 40px;
 }
 
 .image-bg-fluid-height {
-	background: url(../imgs/landingPage/background.jpg) no-repeat center center fixed;
+	background: url(../imgs/landingPage/background.jpg) no-repeat center center ;
     padding: 100px 0;
 }
 
-.image-bg-fixed-height {
-	background: url(../imgs/landingPage/background2.jpg) no-repeat center center;
-    height: 120px;
-}
 
 .img-center {
 	margin: 0 auto;
@@ -99,7 +127,7 @@ footer {
     padding: 10px 0;
     box-shadow: 2px 2px 15px black;
     background: url(../imgs/landingPage/bubbleBackground.jpg) no-repeat center center scroll;
-}ד
+}
 
 h3{
     color:#1c4f86;
