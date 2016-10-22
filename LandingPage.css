@@ -6,17 +6,17 @@ text-decoration-line: none;
 }
 #topbar{
     box-shadow: 2px 2px 15px black;
-    background: url(../imgs/landingPage/bubbleBackground.jpg) no-repeat center center scroll;
+   background: url(../imgs/landingPage/navBackground.jpg) no-repeat center center scroll;
     padding-left: 50px;
 }
 #topbar span{
     padding-left: 10px;
     font-size: 20px;
-    color:#1c4f86;
+    color: white;
+    text-shadow:2px 2px 3px #1c4f86;
 }
 #topbar span:hover{
-    color: black;
-    text-decoration: bold;
+    text-shadow:3px 3px 3px black;
 }
 #topbar img{
     width: 80px;
@@ -72,10 +72,16 @@ text-shadow:1px 1px 5px black;
 color: white;
 font-size: 40px;
 }
-
+h4{
+    color:white;
+    font-size: 18px;
+    text-decoration: bold;
+    text-shadow:1px 1px 3px black;
+}
 .btn-success{
     background-color: #1c4f86;
     border-color: #1c4f86;
+    margin-top:-20px;
 }
 
 .image-bg-fluid-height,
@@ -89,7 +95,7 @@ font-size: 40px;
 
 .image-bg-fluid-height {
 	background: url(../imgs/landingPage/background.jpg) no-repeat center center ;
-    padding: 100px 0;
+    padding: 130px 0;
 }
 
 
