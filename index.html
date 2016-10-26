@@ -161,12 +161,7 @@
         </div>
     </section>
 
-        <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheigh
-    t="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q
-    &amp;hl=en&amp;geocode=&amp;q=Littlehampton,+UK&amp;aq=0&amp;oq=little&amp;s
-    ll=53.800651,-4.064941&amp;sspn=32.071399,34.786576&amp;ie=UTF8&amp;hq=&amp;
-    hnear=Littlehampton,+West+Sussex,+United+Kingdom&amp;t=m&amp;ll=532.071399,34.786576&amp;spn=32.071399,34.786576&amp;z=14&amp;iwloc=A&amp;output=embed">
-    </iframe>
+        <div id="map" style="width:100%;height:250px"></div>
 
     <!-- Footer -->
     <footer class="text-center">
@@ -220,8 +215,17 @@
     </div>
 
 </body>
-<script type="text/javascript">
-    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(32.8707297,35.0996013), 
+    zoom: 16
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
 </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </html>
 
