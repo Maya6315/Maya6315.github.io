@@ -4,6 +4,20 @@
 font-family:'Alef Hebrew',Arial, verdana, 'sans serif';
 text-decoration-line: none;
 }
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: #1c4f86 url("../imgs/landingPage/up-arrow.png") no-repeat center 50%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
 #topbar{
     box-shadow: 2px 2px 15px black;
    background: url(../imgs/landingPage/navBackground.jpg) no-repeat center center scroll;
